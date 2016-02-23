@@ -4,7 +4,8 @@ ul {
 	margin:0;
 	padding:0;
 	position: absolute
-	text-align: center;
+	text-align: center
+	display:inline-block;
 }
 
 /*Create a horizontal list with spacing*/
