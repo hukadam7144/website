@@ -6,12 +6,12 @@ ul {
 	position: absolute
 	text-align: center
   	display:inline-block;
+        float: left;
 }
 
 /*Create a horizontal list with spacing*/
 li {
 	display:inline-block;
-        float: left;
 	margin-right: 1px;
 	text-align: center
 	text-align: center;
