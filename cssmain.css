@@ -5,14 +5,12 @@ ul {
 	padding:0;
 	position: absolute
 	text-align: center
-  	display:inline-block
-  	float: left;
+  	display:inline-block;
 }
 
 /*Create a horizontal list with spacing*/
 li {
 	display:inline-block;
-	float: left;
 	margin-right: 1px;
 	text-align: center
 	text-align: center;
