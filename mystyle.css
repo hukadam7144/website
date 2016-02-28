@@ -3,3 +3,12 @@ body {
  min-width:100%;
  height:auto;
 }
+
+div.scales {
+width:200px;
+height:100px;
+background-color:#FF00FF;
+margin-left:200px;
+margin-top:200px;
+position:absolute;
+}
