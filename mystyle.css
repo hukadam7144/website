@@ -1,8 +1,8 @@
 boxes {
-     margin: auto;
+    margin: auto;
+    width: 60%;
     background-color: white;
     width: 300px;
     padding: 20px;
     border: 2px #000000;
-  
 }
