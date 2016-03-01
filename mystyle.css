@@ -1,9 +1,7 @@
-div { 
-   @media only screen and (min-device-width: 768px) 
-   and (max-device-width: 1024px) 
-   and (-webkit-min-device-pixel-ratio: 2) { 
-   flags { width: 12.75px; height: 30.34px;
-} 
-   }
+boxes {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
 }
-  
