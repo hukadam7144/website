@@ -1,6 +1,7 @@
 boxes {
     margin: auto;
     width: 60%;
-    background-color: white;
-    border: 1px solid black;
+    background-color: #FFD590;
+    padding: 45px;
+    border: 2px solid white;
 }
