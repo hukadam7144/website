@@ -3,6 +3,7 @@ boxes {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin: 0 auto;
     background-color: #FFD590;
     padding: 45px;
     border: 2px solid white;
