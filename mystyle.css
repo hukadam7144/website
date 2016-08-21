@@ -64,6 +64,7 @@ img { max-width: 100%; }
 .dropdown-content {
     display: none;
     position: absolute;
+    right: 0;
     background-color: #FFD590;
     min-width: 60px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
