@@ -27,7 +27,18 @@
                         <center>
                                 <font size="8">Weißer Stein für das Weiße Haus</font>
                         </center><br>
-                        <img align="left" height="165" src="http://hukadam7144.github.io/website/articles/whitestone/dp.jpg" style="margin-right:20px" width="300"> <font size="5">Man würde sagen,
+                        <!-- Trigger the Modal -->
+                        <img id="mainimage" align="left" src="http://hukadam7144.github.io/website/articles/whitestone/dp.jpg" alt="Pučišća, Croatia" style="margin-right:20px" height="165" width="300">
+                        <!-- The Modal -->
+                        <div id="Modal1" class="modal">
+                                <!-- The Close Button -->
+                                <span class="close" onclick="document.getElementById('Modal1').style.display='none'">&times;</span>
+                                <!-- Modal Content (The Image) -->
+                                <img class="modal-content" id="img1">
+                                <!-- Modal Caption (Image Text) -->
+                                <div id="caption"></div>
+                        </div> 
+                        <font size="5">Man würde sagen,
                         dass die drittgrößte kroatische Insel Brac so beliebt bei Touristen dank seiner herrlichen Kiesstrand Zlatni rat (Goldenes Horn). Und das ist sicherlich nicht ganz falsch, der
                         Mangel an echten Strände an der Adria gegeben.</font><br>
                         <font size="5">Allerdings, wenn es, entdecken die Besucher einen weiteren versteckten Schatz dieses Stück sonnigen Land: die weißen Kalkstein.</font><br clear="all">
@@ -60,5 +71,25 @@
                 <p>
                         <font size="4">Wenn Sie möchten, zu lernen, wie Stein zu schnitzen, Sommerkurse sind möglich für interessierte Touristen.</font>
                 </p>
+                <script>
+                        // Get the modal
+                                var modal = document.getElementById('Modal1');
+                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                                var img = document.getElementById('mainimage');
+                                var modalImg = document.getElementById("img1");
+                                var captionText = document.getElementById("caption");
+                                img.onclick = function(){
+                                        modal.style.display = "block";
+                                        modalImg.src = this.src;
+                                        modalImg.alt = this.alt;
+                                        captionText.innerHTML = this.alt;
+                                                        }
+                        // Get the <span> element that closes the modal
+                                var span = document.getElementsByClassName("close")[0];
+                        // When the user clicks on <span> (x), close the modal
+                                span.onclick = function() {
+                                        modal.style.display = "none";
+                                }
+                </script>
         </body>
 </html>
