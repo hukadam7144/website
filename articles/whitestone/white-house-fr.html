@@ -9,6 +9,29 @@
                 <meta content="width=device-width" name="viewport">
         </head>
         <body bgcolor="#fff1db">
+                <script>
+// Get the modal
+var modal = document.getElementById('Modal1');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('mainimage');
+var modalImg = document.getElementById("img1");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+</script>
                 
                 <p></p>
                 <center>
@@ -19,7 +42,7 @@
                 <p></p><div class="dropdown">
                         <img src="https://raw.githubusercontent.com/hukadam7144/website/gh-pages/images/fr.png">
                         <div class="dropdown-content">
-<a href="http://hukadam7144.github.io/website/articles/whitestone/white-house-eng.html"><img src="https://raw.githubusercontent.com/hukadam7144/website/gh-pages/images/eng.png"></a>
+                                <a href="http://hukadam7144.github.io/website/articles/whitestone/white-house-eng.html"><img src="https://raw.githubusercontent.com/hukadam7144/website/gh-pages/images/eng.png"></a>
                                 <a href="http://hukadam7144.github.io/website/articles/whitestone/white-house-de.html"><img src="https://raw.githubusercontent.com/hukadam7144/website/gh-pages/images/de.png"></a>  
                         </div>
                 </div>
